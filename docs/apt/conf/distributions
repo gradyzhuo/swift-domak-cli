@@ -1,0 +1,7 @@
+Origin: swift-pangu-cli
+Label: pangu
+Codename: stable
+Architectures: amd64 arm64
+Components: main
+Description: APT repository for pangu, the swift-ddd-kit project scaffolding CLI
+SignWith: 613004DF457981F3C50D6B6B4BA7293E545FBB2C
