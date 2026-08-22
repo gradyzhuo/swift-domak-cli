@@ -1,7 +1,7 @@
 import ArgumentParser
 import Foundation
 
-struct ProjectCreateCommand: ParsableCommand {
+struct CreateCommand: ParsableCommand {
     static let configuration = CommandConfiguration(
         commandName: "create",
         abstract: "Scaffold a new swift-ddd-kit starter project (aggregate + usecases + KurrentDB wiring).",

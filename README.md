@@ -34,11 +34,11 @@ The binary is at `.build/release/pangu`.
 ## Usage
 
 ```bash
-pangu project create OrderContext
+pangu create OrderContext
 ```
 
 ```
-USAGE: pangu project create <name> [--aggregate <aggregate>] [--output <output>] [--kit-version <kit-version>] [--force]
+USAGE: pangu create <name> [--aggregate <aggregate>] [--output <output>] [--kit-version <kit-version>] [--force]
 
 ARGUMENTS:
   <name>                  The project name, e.g. OrderContext.

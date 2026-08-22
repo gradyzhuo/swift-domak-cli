@@ -1,4 +1,4 @@
-/// All names derived once per `pangu project create` invocation and threaded
+/// All names derived once per `pangu create` invocation and threaded
 /// through the templates, so every generated file agrees on the same casing.
 struct ProjectContext {
     /// PascalCase project/package name, e.g. "OrderContext".
