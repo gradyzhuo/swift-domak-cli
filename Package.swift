@@ -15,12 +15,14 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/apple/swift-argument-parser", from: "1.3.0"),
+        .package(url: "https://github.com/gradyzhuo/swift-kurrentdb.git", from: "2.0.0"),
     ],
     targets: [
         .executableTarget(
             name: "PanguCLI",
             dependencies: [
-                .product(name: "ArgumentParser", package: "swift-argument-parser")
+                .product(name: "ArgumentParser", package: "swift-argument-parser"),
+                .product(name: "KurrentDB", package: "swift-kurrentdb"),
             ]),
         .testTarget(
             name: "PanguCLITests",
