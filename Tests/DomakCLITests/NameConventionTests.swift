@@ -1,5 +1,5 @@
 import Testing
-@testable import PanguCLI
+@testable import DomakCLI
 
 @Suite("NameConvention")
 struct NameConventionTests {

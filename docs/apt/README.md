@@ -1,6 +1,6 @@
-# pangu APT repository
+# domak APT repository
 
-Published at `https://gradyzhuo.github.io/swift-pangu-cli/apt/` by the
+Published at `https://gradyzhuo.github.io/swift-domak-cli/apt/` by the
 `pages.yml` GitHub Pages workflow (this directory is under `docs/`, which
 that workflow watches).
 
@@ -16,9 +16,9 @@ every tagged release instead of rebuilding the repo from scratch.
 ## Install (end users)
 
 ```bash
-curl -fsSL https://gradyzhuo.github.io/swift-pangu-cli/apt/pubkey.gpg \
-  | sudo gpg --dearmor -o /usr/share/keyrings/pangu.gpg
-echo "deb [signed-by=/usr/share/keyrings/pangu.gpg] https://gradyzhuo.github.io/swift-pangu-cli/apt stable main" \
-  | sudo tee /etc/apt/sources.list.d/pangu.list
-sudo apt update && sudo apt install pangu
+curl -fsSL https://gradyzhuo.github.io/swift-domak-cli/apt/pubkey.gpg \
+  | sudo gpg --dearmor -o /usr/share/keyrings/domak.gpg
+echo "deb [signed-by=/usr/share/keyrings/domak.gpg] https://gradyzhuo.github.io/swift-domak-cli/apt stable main" \
+  | sudo tee /etc/apt/sources.list.d/domak.list
+sudo apt update && sudo apt install domak
 ```

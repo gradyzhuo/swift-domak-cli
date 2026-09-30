@@ -1,4 +1,4 @@
-/// Aggregates every template group into the full file set for `pangu create`.
+/// Aggregates every template group into the full file set for `domak create`.
 enum ProjectTemplate {
     static func files(for ctx: ProjectContext) -> [ScaffoldFile] {
         RootTemplate.files(for: ctx)
