@@ -1,12 +1,12 @@
-Package: pangu
+Package: domak
 Version: @VERSION@
 Section: devel
 Priority: optional
 Architecture: @ARCH@
 Maintainer: Grady Zhuo <gradyzhuo@gmail.com>
-Homepage: https://github.com/gradyzhuo/swift-pangu-cli
+Homepage: https://github.com/gradyzhuo/swift-domak-cli
 Description: Scaffold swift-ddd-kit DDD/Event-Sourcing starter projects
- pangu generates a runnable Domain-Driven Design + Event Sourcing starter
+ domak generates a runnable Domain-Driven Design + Event Sourcing starter
  project wired to swift-ddd-kit and KurrentDB: an aggregate root, Create/
  Rename/Delete use cases, a read-side projector, and aggregate-level unit
- tests. See https://github.com/gradyzhuo/swift-pangu-cli for details.
+ tests. See https://github.com/gradyzhuo/swift-domak-cli for details.

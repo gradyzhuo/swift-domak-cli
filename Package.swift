@@ -4,26 +4,26 @@
 import PackageDescription
 
 let package = Package(
-    name: "swift-pangu-cli",
+    name: "swift-domak-cli",
     platforms: [
         .macOS(.v15),
     ],
     products: [
         .executable(
-            name: "pangu",
-            targets: ["PanguCLI"]),
+            name: "domak",
+            targets: ["DomakCLI"]),
     ],
     dependencies: [
         .package(url: "https://github.com/apple/swift-argument-parser", from: "1.3.0"),
     ],
     targets: [
         .executableTarget(
-            name: "PanguCLI",
+            name: "DomakCLI",
             dependencies: [
                 .product(name: "ArgumentParser", package: "swift-argument-parser")
             ]),
         .testTarget(
-            name: "PanguCLITests",
-            dependencies: ["PanguCLI"]),
+            name: "DomakCLITests",
+            dependencies: ["DomakCLI"]),
     ]
 )

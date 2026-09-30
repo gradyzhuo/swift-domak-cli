@@ -1,6 +1,6 @@
-# swift-pangu-cli
+# swift-domak-cli
 
-`pangu` (盤古) scaffolds a runnable [swift-ddd-kit](https://github.com/gradyzhuo/swift-ddd-kit)
+`domak` scaffolds a runnable [swift-ddd-kit](https://github.com/gradyzhuo/swift-ddd-kit)
 starter project — an aggregate root, Create/Rename/Delete use cases, a read-side
 projector, KurrentDB wiring, and aggregate-level unit tests — from nothing.
 
@@ -10,17 +10,17 @@ projector, KurrentDB wiring, and aggregate-level unit tests — from nothing.
 
 ```bash
 brew tap gradyzhuo/tap
-brew install pangu
+brew install domak
 ```
 
 **apt (Ubuntu/Debian, amd64/arm64):**
 
 ```bash
-curl -fsSL https://gradyzhuo.github.io/swift-pangu-cli/apt/pubkey.gpg \
-  | sudo gpg --dearmor -o /usr/share/keyrings/pangu.gpg
-echo "deb [signed-by=/usr/share/keyrings/pangu.gpg] https://gradyzhuo.github.io/swift-pangu-cli/apt stable main" \
-  | sudo tee /etc/apt/sources.list.d/pangu.list
-sudo apt update && sudo apt install pangu
+curl -fsSL https://gradyzhuo.github.io/swift-domak-cli/apt/pubkey.gpg \
+  | sudo gpg --dearmor -o /usr/share/keyrings/domak.gpg
+echo "deb [signed-by=/usr/share/keyrings/domak.gpg] https://gradyzhuo.github.io/swift-domak-cli/apt stable main" \
+  | sudo tee /etc/apt/sources.list.d/domak.list
+sudo apt update && sudo apt install domak
 ```
 
 **From source:**
@@ -29,16 +29,16 @@ sudo apt update && sudo apt install pangu
 swift build -c release
 ```
 
-The binary is at `.build/release/pangu`.
+The binary is at `.build/release/domak`.
 
 ## Usage
 
 ```bash
-pangu create OrderContext
+domak create OrderContext
 ```
 
 ```
-USAGE: pangu create <name> [--aggregate <aggregate>] [--output <output>] [--kit-version <kit-version>] [--force]
+USAGE: domak create <name> [--aggregate <aggregate>] [--output <output>] [--kit-version <kit-version>] [--force]
 
 ARGUMENTS:
   <name>                  The project name, e.g. OrderContext.
